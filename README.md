@@ -1,8 +1,8 @@
-<center>🚀A Lightweight Star Fruit Quality Detector Based on a Label-Balanced Strategy and Deployed on Real-Time Edge Devices🚀</center>
 
-<center>[Haijun Zhang](https://github.com/zhanghjoy)<sup>1</sup>, [Jiqin Chen](https://prof.gxu.edu.cn/teacherDetails/20461de7-0943-4b47-85f1-015f72dcb8d3)<sup>1</sup></center>
+<center> 🚀A Lightweight Star Fruit Quality Detector Based on a Label-Balanced Strategy and Deployed on Real-Time Edge Devices🚀
 
-<center><sup>1</sup>  Guangxi University</center>
+
+[Haijun Zhang](https://github.com/zhanghjoy)
 
 ---
 Updates Record
