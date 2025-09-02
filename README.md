@@ -6,9 +6,7 @@
 up to now (20250711):
 my paper is under writing......
 
-
-<div align="center">
-<h1>A Lightweight Star Fruit Quality Detector Based on a Label-Balanced Strategy and Deployed on Real-Time Edge Devices	</h1>
+<h1>🚀A Lightweight Star Fruit Quality Detector Based on a Label-Balanced Strategy and Deployed on Real-Time Edge Devices🚀	</h1>
 
 
 [Haijun Zhang](https://github.com/zhanghjoy)<sup>1</sup>, [Jiqin Chen](https://prof.gxu.edu.cn/teacherDetails/20461de7-0943-4b47-85f1-015f72dcb8d3)<sup>1</sup>
