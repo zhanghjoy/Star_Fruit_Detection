@@ -16,15 +16,13 @@ my paper is under writing......
 <sup>1</sup>  Guangxi University
 
 ---
-
-# Updates Record
+Updates Record
 
 * 2025/09/02 Buid this repo
 * 
 
 ---
-
-# Abstract
+Abstract
 
 这个仓库用于存放论文相关的代码和工具以及参考资料。
 
@@ -32,7 +30,7 @@ my paper is under writing......
 
 ---
 
-# 0.前言
+0.前言
 
 本文使用的开源工具和代码地址：
 
@@ -60,7 +58,7 @@ zhjoy_cfg: 存放使用到的自定义的yolo配置文件
 
 >
 
-# 1.环境配置
+1.环境配置
 
 本文的训练环境为：
 
@@ -93,11 +91,11 @@ zhjoy_cfg: 存放使用到的自定义的yolo配置文件
 (zhjoyX):pip install -r requirments.txt./
 ```
 
-# 2.代码训练
+2.代码训练
 
 首先你需要准备自己的yolo格式已经标注完成的数据集
 
-# 3.参考资料
+3.参考资料
 
 > 核心模块相关论文和代码仓库：
 >
