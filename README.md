@@ -1,107 +1,102 @@
-
-<center> 🚀A Lightweight Star Fruit Quality Detector Based on a Label-Balanced Strategy and Deployed on Real-Time Edge Devices🚀
-
-
-[Haijun Zhang](https://github.com/zhanghjoy)
-
----
-Updates Record
-
-*up to now (20250711):my paper is under writing......
-* 2025/09/02 Buid this repo
-* 
-
----
-Abstract
-
-这个仓库用于存放论文相关的代码和工具以及参考资料。
-
-
+🚀 基于标签均衡策略的轻量化杨桃品质检测器，并部署于实时边缘设备 🚀  
+[Haijun Zhang](https://github.com/zhanghjoy)  
 
 ---
 
-0.前言
 
-本文使用的开源工具和代码地址：
 
-labelimg：
+# 📌 更新记录
 
-yolov12：
+* :white_check_mark: 2025/07/11 创建本仓库！
+* :white_check_mark: 2025/09/02 更新工具文件：Star_Fruit_Detection/src/utils
+* :white_check_mark: 2025/09/02 更新修改后的模块与网络配置文件  
 
-开源数据集：
+---
 
-本仓库对应的对应的论文为：
+# 📖 摘要
 
-RTDETR
+本仓库用于存放与论文相关的代码、工具以及参考资料。  
 
-SSD FasterRCNN (bubling)
+---
 
-仓库的结构为：
+# 0️⃣ 前言
 
-photos为
+- **src**：存放实验中使用的工具脚本，包括元素库均衡代码、图像分割代码、数据增强脚本、标签统计工具、改进模块代码以及配置文件。  
+- **photo**：存放已处理完成的元素库图像。  
+- **开源数据集**：[Mendeley Dataset](https://data.mendeley.com/datasets/f35jp46gms/1)  
+- **标注工具**：[labelImg](https://github.com/tzutalin/labelImg)  
 
-Tools_Src：存放文中使用的一些工具脚本，元素库平衡代码，分割代码，背景去除代码。图像数据增强代码
+---
 
-ultralytics：存放yolov12的官方文件
+# 1️⃣ 环境配置
 
-zhjoy_cfg: 存放使用到的自定义的yolo配置文件
+本文实验环境如下：  
 
->
-
-1.环境配置
-
-本文的训练环境为：
-
-| 环境            | 版本                      |
+| 环境项          | 版本信息                  |
 | --------------- | ------------------------- |
-| 操作系统        | windows11                 |
-| 语言版本        | 3.10.18                   |
-| torch版本       |                           |
-| torchvision版本 |                           |
-| torchaudio版本  |                           |
+| 操作系统        | Windows 11                |
+| Python版本      | 3.10.18                   |
+| torch版本       | Fill me                          |
+| torchvision版本 | Fill me                          |
+| torchaudio版本  | Fill me                           |
 | CPU             | Intel i7-12800HX          |
-| 显卡            | NVIDIA RTX4070 Laptop(8G) |
-| 内存            | 32G(4800MHz)              |
-|                 |                           |
+| GPU             | NVIDIA RTX4070 Laptop(8G) |
+| 内存            | 32G (4800MHz)             |
 
-如果你想得到相同的软件实验环境，推荐使用Conda对环境进行管理，在确保你的电脑已经安装了Anaconda软件的前提下运行以下命令：
-
-```bash
-(base):conda create -n zhjoyX python=3.10.18 -y
-# 如果你在中国国内，推荐加上清华源镜像能够使你的下载更加流畅：
-# -i https://mirrors.tuna.tsinghua.edu.cn/pypi/web/simple --trusted-host=https://mirrors.tuna.tsinghua.edu.cn/pypi/web/simple
-#此外，你还可以将其全局设置为清华源：
-#pip config set global.index-url https://pypi.tuna.tsinghua.edu.cn/simple
-```
-
-环境激活
+如果你希望复现相同的软件环境，推荐使用 **Conda** 进行管理。在确保已安装 **Anaconda** 的前提下运行以下命令：  
 
 ```bash
-(base):conda activate zhjoyX
-(zhjoyX):pip install -r requirments.txt./
+(base): conda create -n zhjoyX python=3.10.18 -y
+# 如果你在中国国内，建议使用清华源镜像以提升下载速度：
+# -i https://mirrors.tuna.tsinghua.edu.cn/pypi/web/simple --trusted-host mirrors.tuna.tsinghua.edu.cn
+# 也可以全局设置清华源：
+# pip config set global.index-url https://pypi.tuna.tsinghua.edu.cn/simple
 ```
 
-2.代码训练
+激活环境：  
 
-首先你需要准备自己的yolo格式已经标注完成的数据集
-
-3.参考资料
-
-> 核心模块相关论文和代码仓库：
->
-> 
-
-1.论文中对比实验的参考代码
-
-
-
-
+```bash
+(base): conda activate zhjoyX
+(zhjoyX): pip install -r requirements.txt
+```
 
 ---
 
-如果对本仓库或者论文有疑问，可以通过以下方式联系我，我将尽最大的努力为您解答。
+# 2️⃣ 代码训练
 
-:rocket: 账号(QQ):2422785900
+1. 准备好 **YOLO格式** 并完成标注的数据集。  
+2. 将本仓库提供的改进模块添加到 YOLOv12 的开源代码中。  
+3. 根据配置文件进行训练。  
 
-:robot: 邮箱(Email):zhj0109@st.gxu.edu.cn
+---
 
+# 3️⃣ 参考资料
+
+📑 本研究所涉及的核心模块相关论文、代码仓库，以及对比实验与轻量化工具参考如下：  
+
+**1. 改进模块参考仓库**  
+
+* [PSConv](https://github.com/JN-Yang/PConv-SDloss-Data)  
+* [EUCB](https://github.com/SLDGroup/EMCAD)  
+* [MSEE](https://github.com/BellyBeauty/MDSAM)  
+
+**2. 对比实验模型仓库**  
+
+* [RT-DETR](https://github.com/lyuwenyu/RT-DETR/tree/main)  
+* [SSD](https://github.com/bubbliiiing/ssd-pytorch)  
+* [Faster-RCNN](https://github.com/bubbliiiing/faster-rcnn-pytorch)  
+* [YOLOv13](https://github.com/iMoonLab/yolov13)  
+* [YOLOv8/YOLOv10/YOLOv11](https://github.com/ultralytics/ultralytics)  
+
+**3. 轻量化参考工具**  
+
+* [Torch-Pruning TP](https://github.com/VainF/Torch-Pruning)  
+
+---
+
+# 📬 联系方式
+
+如果你对本仓库或论文有任何疑问，欢迎联系我，我将尽力为你解答：  
+
+:rocket: QQ账号：2422785900  
+:robot: 邮箱：zhj0109@st.gxu.edu.cn  
