@@ -107,3 +107,7 @@ If you have any questions about this repository or the related paper, feel free 
 
 - 🚀 QQ: **2422785900**
 - 🤖 Email: **zhj0109@st.gxu.edu.cn**
+
+## Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=zhanghjoy/Star_Fruit_Detection&type=Date)](https://www.star-history.com/#zhanghjoy/Star_Fruit_Detection&Date)
