@@ -1,7 +1,7 @@
 # 🚀 A Lightweight Star Fruit Quality Detector Based on a Label-Balanced Strategy and Deployed on Real-Time Edge Devices 🚀
 
-👨‍💻 Author: [Haijun Zhang](https://github.com/zhanghjoy)
-
+👨‍💻 Author: [Haijun Zhang](https://github.com/zhanghjoy)  
+🏫 Affiliation: 🏛️ Guangxi University, ⚙️ School of Mechanical Engineering
 ------
 
 ## 📌 Updates Record
@@ -9,7 +9,7 @@
 - ✅ **2025/07/11** — Build this repo!
 - ✅ **2025/09/02** — Updated utility files: `Star_Fruit_Detection/src/utils`
 - ✅ **2025/09/16** — Updated modified modules and network YAML configuration files
-- ✅ **2025/09/17** — Updated core pruning EXP code
+- ✅ **2025/09/17** — Updated core pruning EXP code ：'Star_Fruit_Detection/src/core/prune.py'
 
 ------
 
