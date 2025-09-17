@@ -21,7 +21,7 @@ This repository contains the code, tools, and reference materials related to the
 ## 🔰 0. Preface
 
 - **src**: Contains utility scripts, label-balancing code, segmentation tools, image augmentation scripts, label statistics, improved modules, and configuration files.
-- **photo**: Stores processed dataset images.
+- **photo**: Stores processed dataset images.#TODO🤷‍♂️
 - **docs**: Stores some doc file.
 - **Open dataset**: [Mendeley Data](https://data.mendeley.com/datasets/f35jp46gms/1)
 - **Annotation tool**: [labelImg](https://github.com/tzutalin/labelImg)
@@ -36,9 +36,9 @@ The training environment used in this work:
 | ----------- | --------------------------- |
 | OS          | Windows 11                  |
 | Python      | 3.10.18                     |
-| torch       | (to be filled)              |
-| torchvision | (to be filled)              |
-| torchaudio  | (to be filled)              |
+| torch       | pls fill me🤨             |
+| torchvision | pls fill me🤨             |
+| torchaudio  | pls fill me🤨              |
 | CPU         | Intel i7-12800HX            |
 | GPU         | NVIDIA RTX 4070 Laptop (8G) |
 | RAM         | 32 GB (4800 MHz)            |
