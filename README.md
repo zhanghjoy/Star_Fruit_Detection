@@ -44,7 +44,7 @@ The training environment used in this work:
 | RAM         | 32 GB (4800 MHz)            |
 
 If you wish to reproduce the same environment, it is recommended to use **Conda** for management.
- Make sure you have Anaconda installed, then run:
+ Make sure you have [Anaconda](https://www.anaconda.com/download) installed, then run:
 
 ```
 (base): conda create -n zhjoyX python=3.10.18 -y
