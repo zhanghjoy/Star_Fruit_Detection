@@ -107,3 +107,5 @@ If you have any questions about this repository or the related paper, feel free 
 
 - 🚀 QQ: **2422785900**
 - 🤖 Email: **zhj0109@st.gxu.edu.cn**
+
+![Star History](https://starchart.cc/zhanghjoy/Star_Fruit_Detection.svg)
