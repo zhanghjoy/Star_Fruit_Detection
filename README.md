@@ -64,6 +64,7 @@ Activate the environment:
 ```
 
 ------
+> requirements txt file need to upload!!!🤷‍♂️
 
 ## 🏋️ 2. Training the Model
 
