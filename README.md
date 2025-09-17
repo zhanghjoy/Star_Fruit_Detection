@@ -37,9 +37,9 @@ The training environment used in this work:
 | ----------- | --------------------------- |
 | OS          | Windows 11                  |
 | Python      | 3.10.18                     |
-| torch       | pls fill me🤨             |
-| torchvision | pls fill me🤨             |
-| torchaudio  | pls fill me🤨              |
+| torch       | 2.2.1+cu118             |
+| torchvision | 0.17.1+cu118             |
+| torchaudio  | 2.2.1+cu118              |
 | CPU         | Intel i7-12800HX            |
 | GPU         | NVIDIA RTX 4070 Laptop (8G) |
 | RAM         | 32 GB (4800 MHz)            |
