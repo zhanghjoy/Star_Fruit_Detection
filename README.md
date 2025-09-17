@@ -1,7 +1,7 @@
 # 🚀 A Lightweight Star Fruit Quality Detector Based on a Label-Balanced Strategy and Deployed on Real-Time Edge Devices 🚀
 
 👨‍💻 Author: [Haijun Zhang](https://github.com/zhanghjoy)  
-🏫 Affiliation: 🏛️ Guangxi University
+🏛️ Affiliation: Guangxi University
 ------
 
 ## 📌 Updates Record
