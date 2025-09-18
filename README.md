@@ -51,7 +51,7 @@ If you wish to reproduce the same environment, it is recommended to use **Conda*
 (base): conda create -n zhjoyX python=3.10.18 -y
 
 # If you are in mainland China, add Tsinghua mirror to improve download speed:
-# -i https://mirrors.tuna.tsinghua.edu.cn/pypi/web/simple --trusted-host https://mirrors.tuna.tsinghua.edu.cn/pypi/web/simple
+# conda create -n zhjoyX python=3.10.18 -y -i https://mirrors.tuna.tsinghua.edu.cn/pypi/web/simple --trusted-host https://mirrors.tuna.tsinghua.edu.cn/pypi/web/simple
 
 # You can also set it globally:
 # pip config set global.index-url https://pypi.tuna.tsinghua.edu.cn/simple
