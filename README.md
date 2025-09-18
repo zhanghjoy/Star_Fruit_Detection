@@ -109,11 +109,6 @@ If you have any questions about this repository or the related paper, feel free 
 - 🤖 Email: **zhj0109@st.gxu.edu.cn**
 
 ## Star History
-
-## Star History
-
-## Star History
-
 <a href="https://www.star-history.com/#zhanghjoy/Star_Fruit_Detection&Date">
  <picture>
    <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=zhanghjoy/Star_Fruit_Detection&type=Date&theme=dark" />
