@@ -6,7 +6,7 @@
 # Pruning settings ---------------------------------------------------
 prune:
   enable: False           # Enable/disable pruning
-  method: 'LAMP'          # Pruning method: [LAMP, L1, GroupNorm]
+  method: 'LAMP'          # Pruning method: [LAMP, L1, GroupNorm,Random]
   target_speedup: 1.5     # Target FLOPs speedup ratio (>1 means faster)
   steps: 5                # Iterative pruning steps
   max_ratio: 0.6          # Maximum pruning ratio per layer
@@ -51,6 +51,9 @@ def build_pruner(opts, model, sample_input, ignored_layers=None):
     elif method == "groupnorm":
         importance = tp.importance.GroupNormImportance(p=2)
         pruner_cls = tp.pruner.GroupNormPruner
+    elif method == "random":
+        impprtance = tp.importance.RandomImportance()
+         pruner_cls = tp.pruner.MagnitudePruner
     else:
         raise NotImplementedError("Only L1, LAMP, and GroupNorm are supported!")
 
@@ -189,3 +192,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
