@@ -1,5 +1,5 @@
 # Ultralytics YOLOv12 🚀 Pruning + Finetune Script
-# Supports L1, LAMP, GroupNorm pruning
+# Supports L1, LAMP, GroupNorm Random pruning
 '''
 🚀 Default configuration to add in ultralytics/cfg/default.yaml:
 
@@ -192,4 +192,5 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
