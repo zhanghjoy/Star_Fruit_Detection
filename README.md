@@ -112,4 +112,12 @@ If you have any questions about this repository or the related paper, feel free 
 
 ## Star History
 
-[![Star History Chart](https://api.star-history.com/svg?repos=zhanghjoy/Star_Fruit_Detection&type=Date)](https://www.star-history.com/#zhanghjoy/Star_Fruit_Detection&Date)
+## Star History
+
+<a href="https://www.star-history.com/#zhanghjoy/Star_Fruit_Detection&Date">
+ <picture>
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=zhanghjoy/Star_Fruit_Detection&type=Date&theme=dark" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=zhanghjoy/Star_Fruit_Detection&type=Date" />
+   <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=zhanghjoy/Star_Fruit_Detection&type=Date" />
+ </picture>
+</a>
