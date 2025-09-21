@@ -96,6 +96,11 @@ Activate the environment:
 **③ Lightweight techniques:**
 
 - [Torch-Pruning (TP)](https://github.com/VainF/Torch-Pruning)
+- [LAMP](https://github.com/jaeho-lee/layer-adaptive-sparsity)
+- [BCKD](https://github.com/TinyTigerPan/BCKD)
+- [CWD](https://git.io/Distiller)
+- [ICKD](https://github.com/ADLab-AutoDrive/ICKD)
+- [MGD](https://github.com/yzd-v/MGD)
 
 ------
 
