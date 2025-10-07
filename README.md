@@ -11,8 +11,7 @@
 - ✅ **2025/09/16** — Updated modified modules and network YAML configuration files.
 - ✅ **2025/09/17** — Updated core pruning EXP code ：`Star_Fruit_Detection/src/core/prune.py`;Upload requirements.txt ;Create Repo License
 - ✅ **2025/10/07** — The uploaded source code is based on a PyQt5-developed UI interface, which supports selecting both .pt and .engine format weight files, as well as recognition in video, image, and camera modes. A preview of the UI interface is shown in the figure below.
-- <img width="1202" height="839" alt="48ab5c62d6fb6b8c5b55cde73d19fe30" src="https://github.com/user-attachments/assets/fd65f053-2040-4a7c-958f-4e9a1ec3467b" />
-
+<img width="1202" height="839" alt="48ab5c62d6fb6b8c5b55cde73d19fe30" src="https://github.com/user-attachments/assets/fd65f053-2040-4a7c-958f-4e9a1ec3467b" />
 
 ------
 
@@ -91,8 +90,6 @@ Activate the environment:
 **② Baseline comparison models:**
 
 - [RT-DETR](https://github.com/lyuwenyu/RT-DETR/tree/main)
-- [SSD](https://github.com/bubbliiiing/ssd-pytorch)
-- [Faster-RCNN](https://github.com/bubbliiiing/faster-rcnn-pytorch)
 - [YOLOv13](https://github.com/iMoonLab/yolov13)
 - [YOLOv8 / YOLOv10 / YOLOv11](https://github.com/ultralytics/ultralytics)
 
