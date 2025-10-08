@@ -43,8 +43,21 @@ The training environment used in this work:
 | torchvision | 0.17.1+cu118                |
 | torchaudio  | 2.2.1+cu118                 |
 | CPU         | Intel i7-12800HX            |
-| GPU         | NVIDIA RTX 4070 Laptop (8G) |
-| RAM         | 32 GB (4800 MHz)            |
+| GPU         | NVIDIA RTX 4070 Laptop  |
+| RAM         | 32 GB            |
+
+Edge Device Nvidia Jetson Orin Nano Super Information：
+
+| Component   | Version/Spec                |
+| ----------- | --------------------------- |
+| GPU          |NVIDIA Ampere (512 CUDA cores16 Tensor cores)                  |
+| CPU      |Cortex-A78AE                   |
+| RAM       | 4GB 64bit LPDDR5               |
+| Storage | 256GB NVME SSD                |
+| OS  | Ubuntu22.04 LTS                 |
+| Python         | 3.10.12           |
+| PyQT5         | 5.15.6 |
+| TensorRT         | 10.7.0            |
 
 If you wish to reproduce the same environment, it is recommended to use **Conda** for management.
  Make sure you have [Anaconda](https://www.anaconda.com/download) installed, then run:
