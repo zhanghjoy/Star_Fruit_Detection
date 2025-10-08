@@ -12,7 +12,7 @@
 - ✅ **2025/09/17** — Updated core pruning EXP code ：`Star_Fruit_Detection/src/core/prune.py`;Upload requirements.txt ;Create Repo License
 - ✅ **2025/10/07** — The uploaded source code is based on a PyQt5-developed UI interface, which supports selecting both .pt and .engine format weight files, as well as recognition in video, image, and camera modes. A preview of the UI interface is shown in the figure below.
 <div align="center">
-  <img src="https://github.com/user-attachments/assets/fd65f053-2040-4a7c-958f-4e9a1ec3467b" width="600" height="400">
+  <img src="https://github.com/user-attachments/assets/fd65f053-2040-4a7c-958f-4e9a1ec3467b" width="450" height="300">
 </div>
 
 ------
