@@ -78,7 +78,10 @@ Activate the environment:
 (base): conda activate zhjoyX
 (zhjoyX): pip install -r requirements.txt ./
 ```
-
+By the way ,if U wanna get the same environment on jetson nano edge device with linux OS,pls activate your Virtual Environment and try command :
+```
+pip install -r jetson_requirements.txt ./
+```
 ------
 > requirements.txt uploaded already !🤷‍♂️
 
