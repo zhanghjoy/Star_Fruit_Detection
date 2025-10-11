@@ -10,17 +10,20 @@
 - ✅ **2025/09/02** — Updated utility files: `Star_Fruit_Detection/src/utils`
 - ✅ **2025/09/16** — Updated modified modules and network YAML configuration files.
 - ✅ **2025/09/17** — Updated core pruning EXP code ：`Star_Fruit_Detection/src/core/prune.py`;Upload requirements.txt ;Create Repo License
-- ✅ **2025/10/07** — The uploaded source code is based on a PyQt5-developed UI interface, which supports selecting both .pt and .engine format weight files, as well as recognition in video, image, and camera modes. A preview of the UI interface is shown in the figure below.
-<div align="center">
-  <img src="https://github.com/user-attachments/assets/fd65f053-2040-4a7c-958f-4e9a1ec3467b" width="450" height="300">
-</div>
-
+- ✅ **2025/10/07** — The uploaded code is based on a PyQt5-developed UI interface, which supports selecting both .pt and .engine format weight files, as well as recognition in video, image, and camera mode.
 ------
 
 ## 📖 Abstract
 
-Carambola is a subtropical fruit with high economic value, and achieving accurate detection on edge devices is the key to enabling automated harvesting. This study presents several contributions. First, an element-based label balancing strategy (ESLB) combined with conventional data augmentation techniques was proposed to optimize the dataset, which improved mAP by 2.5% (from baseline to 79.2%) without altering the model architecture. Subsequently, taking YOLOv12n as the baseline, we integrated a Pinwheel-shaped Convolution (PSConv), a multi-scale edge information enhancement module (MSEE), an efficient upsampling convolution block (EUCB), and an efficient detection head (EDH) to enhance the network structure. These improvements further increased mAP to 81.8%, though model complexity was not reduced. To address this, lightweight optimization was conducted by applying LAMP pruning and BCKD knowledge distillation. The distilled model achieved an mAP of 84.5% and an F1-score of 79.8%, while reducing FLOPs and parameter count by 51.7% and 66.8%, respectively, compared with the baseline model. Compared with other mainstream object detection frameworks, the final improved model demonstrated significant advantages in both detection accuracy and model efficiency. Finally, the model was successfully deployed on an edge device (Jetson Orin Nano Super). With TensorRT acceleration via Python API, it achieved 40.42 FPS, fully meeting the requirement for real-time detection. This study provides essential technical support for the practical implementation of automated carambola harvesting robots.
+Carambola is a subtropical fruit with high economic value, and achieving accurate detection on edge devices is the key to enabling automated harvesting. This study presents several contributions. First, an element set label balancing strategy (ESLB) combined with conventional data augmentation techniques was proposed to optimize the dataset, which improved mAP by 2.5% (from baseline to 79.2%) without altering the model architecture. Subsequently, taking YOLOv12n as the baseline, we integrated a Pinwheel-shaped Convolution (PSConv), a multi-scale edge information enhancement module (MSEE), an efficient upsampling convolution block (EUCB), and an efficient detection head (EDH) to enhance the network structure. These improvements further increased mAP to 81.8%, though model complexity was not reduced. To address this, lightweight optimization was conducted by applying LAMP pruning and BCKD knowledge distillation. The distilled model achieved an mAP of 84.5% and an F1-score of 79.8%, while reducing FLOPs and parameter count by 51.7% and 66.8%, respectively, compared with the baseline model. Compared with other mainstream object detection frameworks, the final improved model demonstrated significant advantages in both detection accuracy and model efficiency. Finally, the model was successfully deployed on an edge device (Jetson Orin Nano Super). With TensorRT acceleration via Python API, it achieved 40.42 FPS, fully meeting the requirement for real-time detection. This study provides essential technical support for the practical implementation of automated carambola harvesting robots.
 
+Here is three work mode Demo：
+-  image mode：
+<img width="1798" height="654" alt="image" src="https://github.com/user-attachments/assets/f1315a88-a35e-4ab8-be61-7f6991ac5fd5" />
+-  vedio mode:
+<img width="1220" height="855" alt="Screenshot from 2025-10-07 12-48-43" src="https://github.com/user-attachments/assets/1caace98-734d-4043-a7f2-0e5f49c9fba3" />
+-  camera mode:
+<img width="1220" height="864" alt="Camera_mode" src="https://github.com/user-attachments/assets/f3865077-0fe4-4710-9ce0-5304262bcbca" />
 ------
 
 ## 🔰 0. Preface
