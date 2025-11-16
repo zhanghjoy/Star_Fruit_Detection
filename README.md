@@ -19,10 +19,6 @@ Carambola is a subtropical fruit with high economic value, and achieving accurat
 
 Here is three work mode Demo：
 <img width="1798" height="654" alt="image" src="https://github.com/user-attachments/assets/f1315a88-a35e-4ab8-be61-7f6991ac5fd5" />
-image mode：
-<img width="1220" height="855" alt="Screenshot from 2025-10-07 12-48-43" src="https://github.com/user-attachments/assets/1caace98-734d-4043-a7f2-0e5f49c9fba3" />
-camera mode:
-<img width="1220" height="864" alt="Camera_mode" src="https://github.com/user-attachments/assets/f3865077-0fe4-4710-9ce0-5304262bcbca" />
 
 We deployed this model on robot:
 ![20](https://github.com/user-attachments/assets/842b7d7c-fa99-4547-813e-0be155541d53)
