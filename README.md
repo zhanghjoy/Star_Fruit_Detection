@@ -1,7 +1,11 @@
-# 🚀Real-Time Detection of Star Fruit on Edge Devices via Pruning and Knowledge Distillation 🚀
+#  A lightweight carambola detector based on label balancing and pruning-distillation 
 
-👨‍💻 Author: [Haijun Zhang](https://github.com/zhanghjoy)  
-🏛️ Affiliation: Guangxi University
+👨‍💻 **Jiqing Chen**<sup>a,b</sup>, [**Haijun Zhang**<sup>a</sup>](https://github.com/zhanghjoy), **Yanyan Bao**<sup>a</sup>, **Jingyao Gai**<sup>a,b</sup>, **Qunchao He**<sup>a</sup>, **Anhong Ma**<sup>a</sup>, **Wei Wang**<sup>a</sup>
+
+🏛️ <sup>a</sup> College of Mechatronic Engineering, Guangxi University, Nanning 530007, China
+
+🏛️ <sup>b</sup> Guangxi Manufacturing System and Advanced Manufacturing Technology Key Laboratory, Nanning 530007, China
+
 ------
 
 ## 📌 Updates Record
@@ -9,7 +13,7 @@
 - ✅ **2025/07/11** — Build this repo to record core file on paper.
 - ✅ **2025/09/02** — Updated utility files: `Star_Fruit_Detection/src/utils`
 - ✅ **2025/09/16** — Updated modified modules and network YAML configuration files.
-- ✅ **2025/09/17** — Updated core pruning EXP code ：`Star_Fruit_Detection/src/core/prune.py`;Upload requirements.txt ;Create Repo License
+- ✅ **2025/09/17** — Updated core pruning EXP code;Upload requirements.txt ;Create Repo License
 - ✅ **2025/10/07** — The uploaded code is based on a PyQt5-developed UI interface, which supports selecting both .pt and .engine format weight files, as well as recognition in video, image, and camera mode.
 - ✅ **2025/11/05** — The paper has been completed and submitted to the journal [Computers and Electronics in Agriculture](https://www.sciencedirect.com/journal/computers-and-electronics-in-agriculture).
 ------
@@ -17,6 +21,7 @@
 ## 📖 Abstract
 
 Accurate detection and grading of star fruit are key to automated harvesting. However, object detection tasks often struggle to balance accuracy with model lightweighting. In grading tasks, class imbalance can significantly weaken the model’s learning ability and generalization performance. To address these issues, this study proposed a balancing strategy based on a label element set. This approach effectively alleviates class imbalance and improves the model’s cross-category detection capabilities. Using YOLOv12n as the baseline model, the PSConv and EUCB modules were introduced. The network structure was further optimized in combination with the MSEE and EDH modules proposed in this paper. These changes enhanced the model’s star fruit feature extraction abilities. To balance detection performance and model lightweighting, this paper also combines the LAMP pruning and BCKD knowledge distillation strategies. This achieves a strong balance between performance improvement and computational reduction. Experimental results show that the YOLOv12n-PDM model achieves an F1 score of 79.8% and an mAP of 84.5%. Compared to the baseline model, the proposed model reduces GFLOPS by 51.7% and parameters by 66.8%. Deployment experiments on a Jetson Orin Nano super edge computing device and a mobile robot platform demonstrate that the accelerated model achieves a real-time inference speed of 40.42 FPS. In summary, the proposed model outperforms existing mainstream object detection methods in detection accuracy, lightweightness, and real-time performance. It provides reliable technical support for the development of an intelligent star fruit picking and grading robot system.
+
 We deployed this model on robot:
 ![20](https://github.com/user-attachments/assets/842b7d7c-fa99-4547-813e-0be155541d53)
 
@@ -124,14 +129,11 @@ pip install -r jetson_requirements.txt ./
 
 ------
 
-
-
 ## 📬 Contact
 
 If you have any questions about this repository or the related paper, feel free to reach out:
 
-- 🚀 QQ: **2422785900**
-- 🤖 Email: **zhj0109@st.gxu.edu.cn**
+- 🤖 Email: **zhanghjoy@163.com**
 
 ## Star History
 > if U like this repo，pls give me a star ! thk u very much 😁
