@@ -17,7 +17,7 @@
 - ✅ **2025/10/07** — The uploaded code is based on a PyQt5-developed UI interface, which supports selecting both .pt and .engine format weight files, as well as recognition in video, image, and camera mode.
 - ✅ **2025/11/05** — The paper has been completed and submitted to the journal [Computers and Electronics in Agriculture](https://www.sciencedirect.com/journal/computers-and-electronics-in-agriculture).
 - ✅ **2025/11/16** — The paper was rejected by journal [Computers and Electronics in Agriculture](https://www.sciencedirect.com/journal/computers-and-electronics-in-agriculture).
-- ✅ **2025/11/16** — The paper submitted to the journal [Engineering Applications of Artificial Intelligence](https://www.sciencedirect.com/journal/engineering-applications-of-artificial-intelligence).
+- ✅ **2025/11/17** — The paper submitted to the journal [Engineering Applications of Artificial Intelligence](https://www.sciencedirect.com/journal/engineering-applications-of-artificial-intelligence).
 ------
 
 ## 📖 Abstract
